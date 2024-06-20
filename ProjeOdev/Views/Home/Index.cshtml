@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Index</h2>
+<p>YARRAKAKK</p>
+@DateTime.Now
+
+@for(int i=0; i < 10; i++)
+{
+    <div style=" background:green">
+        @i
+    </div>
+}
+
+@{
+    var list1 = new List<string>() { "adana", "izmir", "manisa", "afyon" };
+}
+@foreach (var li in list1)
+{
+    <br />
+    @li
+}
