@@ -58,5 +58,9 @@ namespace ProjeOdev.Controllers
         {
             return View();
         }
+        public IActionResult Index11()
+        {
+            return View();
+        }
     }
 }
